@@ -1,6 +1,6 @@
 In this experiment have a focus on Map-Reduce. The purpose of the MapReduce operation implemented in Experiment 5 was to efficiently aggregate data using two phases: a map phase and a reduce phase.
 The MapReduce operation implemented in Experiment 5 was particularly useful because it: Handled large data sets: It divided the data into smaller fragments that were processed in parallel, increasing efficiency.
-
+I used page https://github.com/selabhvl/dat250public/blob/master/expassignments/expass5.md to get start of this expass/tasks.
 The operation reduced the complexity of data processing by allowing us to focus on how data should be split and reassembled, making it easier to program and maintain.
 The results from the MapReduce operation provided me with an aggregated collection that gave me a summary of the datasets. 
 
@@ -16,9 +16,20 @@ My introduction page used on https://docs.mongodb.com/manual/introduction/ after
 but before installing MongoDB, I validate the package using either the provided PGP signature the SHA-256 like the says in task 5. 
 And i follow this tutorial to do in this page:https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/
 
-Later in Experiment 1: MongoDB CRUD operations
+Later in Experiment 1: MongoDB and CRUD operations
 CRUD operations stands for create, read, update, and delete documents.
 I follow CRUD operations section:https://docs.mongodb.com/manual/tutorial/insert-documents/
+
+Aggregation in MongoDB  i used page https://www.mongodb.com/docs/manual/crud/ to understand this task. 
+
+MongoDB's aggregation framework is used for processing data and returning computed results. 
+It allows for operations like filtering, grouping, sorting, transforming, and calculating aggregate values (e.g., sums, averages, counts).
+MongoDB Aggregation Stages 
+1 Filters the documents to pass only those that match a certain condition, similar to a SQL WHERE clause.
+2 Can perform aggregate functions (e.g., sum, average) on the grouped data, like SQL's GROUP BY.
+3 Selects specific fields to include or exclude in the output documents, similar to a SQL SELECT clause.
+4 SQL's ORDER BY.
+5 SQL's LIMIT.
 
 ![Skjermbilde 2024-09-27 144707](https://github.com/user-attachments/assets/2e761f76-dc29-4b4e-bd6b-f35339f6ded1)
 
@@ -28,5 +39,7 @@ In this experiment have a focus on Map-Reduce but the results from the MapReduce
 
 ![Skjermbilde 2024-09-27 144758](https://github.com/user-attachments/assets/2420a8a6-4199-47c8-b7b0-70d0bf9df663)
 
+Aggregation is often used when the data has complex relationships or needs to be processed in bulk. 
+the last ting i thining about aggregation can be particularly useful when you need to summarize, group, or analyze large amounts of data. 
 
 
