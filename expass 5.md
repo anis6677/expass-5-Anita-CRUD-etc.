@@ -1,4 +1,10 @@
-In this experiment have a focus on Map-Reduce. The purpose of the MapReduce operation implemented in Experiment 5 was to efficiently aggregate data using two phases: a map phase and a reduce phase.
+Instal MongoDB in pc - A record = dokument; field and valiue paint, name=save then i convert system speach because this can be easiest for me, doing operasion leiter etc.
+Mango Atlas (SHA-256)
+In my pc i didnt have korrekt driver tvo start program soo i just used MongoDB Manuel tok the local installasion, when i have access mongodb from my komputer find sha db , lokalhost to my IP  this was not easy for me to usud and this the time for me.
+In this experiment have a focus on Map-Reduce. 
+The purpose of the MapReduce operation implemented in Experiment 5 was to efficiently aggregate data using two phases: a map phase and a reduce phase.
+
+
 The MapReduce operation implemented in Experiment 5 was particularly useful because it: Handled large data sets: It divided the data into smaller fragments that were processed in parallel, increasing efficiency.
 I used page https://github.com/selabhvl/dat250public/blob/master/expassignments/expass5.md to get start of this expass/tasks.
 The operation reduced the complexity of data processing by allowing us to focus on how data should be split and reassembled, making it easier to program and maintain.
